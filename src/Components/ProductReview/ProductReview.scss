@@ -1,0 +1,19 @@
+.product_review_section {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .review_form {
+    position: relative;
+    max-width: 600px !important;
+    > * {
+      margin-bottom: 15px;
+    }
+
+    input {
+      width: calc(100% - 20px);
+    }
+  }
+}
